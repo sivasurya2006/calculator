@@ -1,12 +1,10 @@
 # Calculator Mini Project
 
-A simple Python command-line calculator project using class and object concepts.
+A simple Python command-line calculator built using class and object concepts.
 
 ## Description
 
-This project is a basic calculator application built with Python. It allows users to perform arithmetic operations through a menu-based command-line interface.
-
-The calculator is created using a Python class, which helps organize the operations like addition, subtraction, multiplication, division, and modulus.
+Calculator Mini Project is a beginner-friendly Python program that performs basic arithmetic operations using a menu-based command-line interface. The project uses a Python class to organize calculator operations such as addition, subtraction, multiplication, division, and modulus.
 
 ## Features
 
@@ -28,6 +26,19 @@ The calculator is created using a Python class, which helps organize the operati
 | 4 | Division |
 | 5 | Modulus |
 
+## Technologies Used
+
+- Python
+
+## Concepts Used
+
+- Class and object
+- Methods
+- Conditional statements
+- Loops
+- User input
+- Arithmetic operators
+
 ## How to Run
 
 1. Make sure Python is installed on your system.
@@ -36,3 +47,31 @@ The calculator is created using a Python class, which helps organize the operati
 
 ```bash
 cd C:\Users\FLMXDOC\OneDrive\Desktop\calculator
+Run the Python file:
+python calculator.py
+File Structure
+calculator/
+|
++-- calculator.py
++-- README.md
+Example Output
+1:add:
+2:sub:
+3:mul:
+4:div:
+5:modulas:
+enter the choices: 1
+enter the number 1: 10
+enter the number 2: 5
+Result: 15
+Future Improvements
+Add exit option
+Improve input validation
+Fix spelling in menu text
+Add power and square root operations
+Display menu in a cleaner format
+Handle invalid number input
+Author
+Siva Surya
+Note
+This is a beginner-level Python mini project created for practicing object-oriented programming and basic arithmetic operations.
